@@ -109,6 +109,10 @@ int getCurrent()
 
 void printValue(int current, int commandRpm, int rpm)
 {
+  if((millis()-lastEvent)>3000)
+  {
+    rpm=0;
+  }
   Serial.print(current);
   Serial.print("\t");
   Serial.print(commandRpm);

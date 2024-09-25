@@ -1,8 +1,6 @@
-#define MIN_RPM 0
-#define MAX_RPM 100
-#define FAN1_PWM 2
-#define FAN1_FB 3
-#define CT A1
+#define FAN1_PWM 11
+#define FAN1_FB 2
+#define CT A2
 #define HOLD_TIME 5000 
 #define ADC_MID 503
 

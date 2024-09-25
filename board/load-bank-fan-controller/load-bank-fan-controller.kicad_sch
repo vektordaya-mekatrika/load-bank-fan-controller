@@ -3338,6 +3338,12 @@
 		(uuid "35c6f4b5-915e-4e71-a961-08bd8c30763e")
 	)
 	(junction
+		(at 137.16 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f669e56-c779-448e-b528-1de3b5f6dd3b")
+	)
+	(junction
 		(at 233.68 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3354,6 +3360,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52834683-4699-4ac2-832d-beaabbeff1e0")
+	)
+	(junction
+		(at 127 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "551eaaf0-a0c0-423d-9ffd-5db57811cad5")
 	)
 	(junction
 		(at 137.16 137.16)
@@ -3410,6 +3422,12 @@
 		(uuid "b0547e94-1af3-41a0-858f-f3da442ccb0e")
 	)
 	(junction
+		(at 137.16 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc334341-6e51-4f7d-9ed9-decfe7f3a96d")
+	)
+	(junction
 		(at 71.12 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3426,12 +3444,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7e2f19f-77b2-4d63-8d93-46c70f720e96")
-	)
-	(junction
-		(at 127 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8143260-16b5-4ba0-9ab7-8ff36184acb7")
 	)
 	(junction
 		(at 223.52 45.72)
@@ -3552,6 +3564,16 @@
 			(type default)
 		)
 		(uuid "1811385f-b340-4737-8c33-c5273a3bf56c")
+	)
+	(wire
+		(pts
+			(xy 137.16 111.76) (xy 137.16 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18beb9cc-73f2-4619-9a53-4bec21f4bff6")
 	)
 	(wire
 		(pts
@@ -3735,7 +3757,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 125.73) (xy 129.54 125.73)
+			(xy 127 127) (xy 129.54 127)
 		)
 		(stroke
 			(width 0)
@@ -3825,6 +3847,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 111.76) (xy 137.16 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b19ce3a-1b65-4731-b11f-6551f5d3c26f")
+	)
+	(wire
+		(pts
 			(xy 125.73 44.45) (xy 133.35 44.45)
 		)
 		(stroke
@@ -3845,7 +3877,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 130.81) (xy 137.16 137.16)
+			(xy 137.16 132.08) (xy 137.16 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4065,6 +4097,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 127) (xy 127 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f145f9e-0fec-4166-8ceb-b4438b13d696")
+	)
+	(wire
+		(pts
 			(xy 219.71 102.87) (xy 222.25 102.87)
 		)
 		(stroke
@@ -4185,16 +4227,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 125.73) (xy 127 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d3de0d2-e06f-4696-8fb9-03043b81d1c5")
-	)
-	(wire
-		(pts
 			(xy 241.3 58.42) (xy 241.3 69.85)
 		)
 		(stroke
@@ -4235,7 +4267,17 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 115.57) (xy 137.16 113.03)
+			(xy 140.97 121.92) (xy 137.16 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a63da5a1-a01d-4b9d-9edc-d8060e4509aa")
+	)
+	(wire
+		(pts
+			(xy 137.16 115.57) (xy 137.16 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4395,7 +4437,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 125.73) (xy 127 125.73)
+			(xy 124.46 127) (xy 127 127)
 		)
 		(stroke
 			(width 0)
@@ -4565,7 +4607,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 125.73) (xy 116.84 125.73)
+			(xy 115.57 127) (xy 116.84 127)
 		)
 		(stroke
 			(width 0)
@@ -4585,7 +4627,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 118.11) (xy 137.16 120.65)
+			(xy 137.16 118.11) (xy 137.16 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4695,6 +4737,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 113.03) (xy 140.97 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6e776e4-e085-40e0-910b-ec93be9c5f86")
+	)
+	(wire
+		(pts
 			(xy 71.12 166.37) (xy 58.42 166.37)
 		)
 		(stroke
@@ -4782,6 +4834,16 @@
 			(type default)
 		)
 		(uuid "f1dba6c7-87ed-4f97-8878-d0e290fae34e")
+	)
+	(wire
+		(pts
+			(xy 140.97 120.65) (xy 140.97 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f24b13d7-df7f-4c27-a439-ee976b32028b")
 	)
 	(wire
 		(pts
@@ -4986,7 +5048,7 @@
 		(uuid a136bb80-2ea9-4be0-8918-3be40eda8a52)
 	)
 	(rectangle
-		(start 107.95 102.87)
+		(start 106.68 102.87)
 		(end 152.4 142.24)
 		(stroke
 			(width 0)
@@ -5377,7 +5439,7 @@
 	)
 	(global_label "RELAY"
 		(shape input)
-		(at 115.57 125.73 180)
+		(at 115.57 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5387,7 +5449,7 @@
 		)
 		(uuid "5eb02621-56bd-4e45-b038-de37d952b392")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.9605 125.73 0)
+			(at 106.9605 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6129,15 +6191,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C105620"
-			(at 255.27 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
 			(at 255.27 82.55 0)
 			(effects
@@ -6246,6 +6299,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C105620"
+			(at 255.27 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 255.27 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c9b63245-4427-45ed-a252-fea0ae5cd473")
 		)
@@ -6307,15 +6378,6 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 71.12 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C14664"
 			(at 71.12 161.29 0)
 			(effects
 				(font
@@ -6424,6 +6486,24 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 71.12 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C14664"
+			(at 71.12 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
 			(at 71.12 161.29 0)
 			(effects
 				(font
@@ -6501,15 +6581,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C14664"
-			(at 237.49 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
 			(at 237.49 40.64 0)
 			(effects
@@ -6610,6 +6681,24 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 237.49 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C14664"
+			(at 237.49 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
 			(at 237.49 40.64 0)
 			(effects
 				(font
@@ -6755,15 +6844,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C14877"
-			(at 204.47 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" " Microchip Tech"
 			(at 204.47 87.63 0)
 			(effects
@@ -6864,6 +6944,24 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 204.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C14877"
+			(at 204.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
 			(at 204.47 87.63 0)
 			(effects
 				(font
@@ -7061,7 +7159,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn Relay"
+		(property "Value" "RELAY"
 			(at 126.365 113.03 0)
 			(effects
 				(font
@@ -7069,7 +7167,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
+		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00232_1x02_P5.08mm_Horizontal"
 			(at 125.73 115.57 0)
 			(effects
 				(font
@@ -7088,15 +7186,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 125.73 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" " C8465"
 			(at 125.73 115.57 0)
 			(effects
 				(font
@@ -7213,6 +7302,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" " C8465"
+			(at 125.73 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 125.73 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e2eac122-f531-4f86-94d7-899e557a509d")
 		)
@@ -7281,15 +7388,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C2908613"
-			(at 73.66 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "HCTL"
 			(at 73.66 81.28 0)
 			(effects
@@ -7299,7 +7397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg PN" "XH-4AW"
+		(property "Mfg PN" "ZX-XH2.54-4PZZ"
 			(at 73.66 81.28 0)
 			(effects
 				(font
@@ -7398,6 +7496,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C7429634"
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "fb959681-0e14-40b6-9ead-c05bbb145217")
 		)
@@ -7464,15 +7580,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 24.13 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C240840"
 			(at 24.13 82.55 0)
 			(effects
 				(font
@@ -7581,6 +7688,24 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 24.13 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C240840"
+			(at 24.13 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
 			(at 24.13 82.55 0)
 			(effects
 				(font
@@ -7701,15 +7826,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C7429633"
-			(at 111.76 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MF" ""
 			(at 111.76 166.37 0)
 			(effects
@@ -7728,7 +7844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Megastar"
+		(property "Manufacturer" ""
 			(at 111.76 166.37 0)
 			(effects
 				(font
@@ -7737,7 +7853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg PN" "ZX-XH2.54-3PZZ"
+		(property "Mfg PN" ""
 			(at 111.76 166.37 0)
 			(effects
 				(font
@@ -7774,6 +7890,24 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 111.76 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 111.76 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
 			(at 111.76 166.37 0)
 			(effects
 				(font
@@ -8120,7 +8254,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 120.65 125.73 90)
+		(at 120.65 127 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8128,7 +8262,7 @@
 		(dnp no)
 		(uuid "4151865a-df92-4253-9ec5-c697317b1244")
 		(property "Reference" "R3"
-			(at 120.65 123.698 90)
+			(at 120.65 124.968 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8136,7 +8270,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 120.65 125.73 90)
+			(at 120.65 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8144,7 +8278,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 120.65 127.508 90)
+			(at 120.65 128.778 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8153,7 +8287,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 125.73 0)
+			(at 120.65 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8162,16 +8296,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 120.65 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C105588"
-			(at 120.65 125.73 0)
+			(at 120.65 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8180,7 +8305,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 120.65 125.73 0)
+			(at 120.65 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8189,7 +8314,7 @@
 			)
 		)
 		(property "Mfg PN" "RC0603FR-07100RL"
-			(at 120.65 125.73 0)
+			(at 120.65 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8198,7 +8323,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 120.65 125.73 0)
+			(at 120.65 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8207,7 +8332,7 @@
 			)
 		)
 		(property "CUI_purchase_URL" ""
-			(at 120.65 125.73 0)
+			(at 120.65 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8216,7 +8341,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 120.65 125.73 0)
+			(at 120.65 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8225,7 +8350,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 120.65 125.73 0)
+			(at 120.65 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8234,7 +8359,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 120.65 125.73 0)
+			(at 120.65 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8243,7 +8368,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 120.65 125.73 0)
+			(at 120.65 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8252,7 +8377,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 120.65 125.73 0)
+			(at 120.65 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8261,7 +8386,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 120.65 125.73 0)
+			(at 120.65 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8270,7 +8395,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 120.65 125.73 0)
+			(at 120.65 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8279,7 +8404,25 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 120.65 125.73 0)
+			(at 120.65 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C105588"
+			(at 120.65 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 120.65 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8346,15 +8489,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 236.22 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C105881"
 			(at 236.22 69.85 0)
 			(effects
 				(font
@@ -8471,6 +8605,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C105881"
+			(at 236.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 236.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "146c2038-8556-4f7a-93e8-441bc658fa48")
 		)
@@ -8577,15 +8729,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C7429633"
-			(at 111.76 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MF" ""
 			(at 111.76 156.21 0)
 			(effects
@@ -8604,7 +8747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Megastar"
+		(property "Manufacturer" ""
 			(at 111.76 156.21 0)
 			(effects
 				(font
@@ -8613,7 +8756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg PN" "ZX-XH2.54-3PZZ"
+		(property "Mfg PN" ""
 			(at 111.76 156.21 0)
 			(effects
 				(font
@@ -8650,6 +8793,24 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 111.76 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 111.76 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
 			(at 111.76 156.21 0)
 			(effects
 				(font
@@ -8712,15 +8873,6 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 254 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C125093"
 			(at 254 58.42 0)
 			(effects
 				(font
@@ -8829,6 +8981,24 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 254 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C125093"
+			(at 254 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
 			(at 254 58.42 0)
 			(effects
 				(font
@@ -8972,15 +9142,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C92490"
-			(at 45.72 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
 			(at 45.72 161.29 0)
 			(effects
@@ -9081,6 +9242,24 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 45.72 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C92490"
+			(at 45.72 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
 			(at 45.72 161.29 0)
 			(effects
 				(font
@@ -9352,15 +9531,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C99782"
-			(at 85.09 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
 			(at 85.09 40.64 0)
 			(effects
@@ -9469,6 +9639,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C99782"
+			(at 85.09 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 85.09 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "22336207-4052-4dfe-a6fc-134b28602c3a")
 		)
@@ -9529,15 +9717,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 24.13 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C240840"
 			(at 24.13 120.65 0)
 			(effects
 				(font
@@ -9646,6 +9825,24 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 24.13 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C240840"
+			(at 24.13 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
 			(at 24.13 120.65 0)
 			(effects
 				(font
@@ -9795,15 +9992,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C22548"
-			(at 233.68 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
 			(at 233.68 88.9 0)
 			(effects
@@ -9912,6 +10100,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C22548"
+			(at 233.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 233.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "25804093-274d-4f6f-a842-b6fdf9235312")
 		)
@@ -9973,15 +10179,6 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 38.1 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C14664"
 			(at 38.1 161.29 0)
 			(effects
 				(font
@@ -10098,6 +10295,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C14664"
+			(at 38.1 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 38.1 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "63bf3804-77f2-4bb5-9a3c-180271be5413")
 		)
@@ -10108,6 +10323,220 @@
 			(project "load-bank-fan-controller"
 				(path "/67fad9ff-6e0c-4fc4-919e-157fc6a2e4e2"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 140.97 116.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75dcdddc-51d6-4054-a8b1-8a84c5ccf6a9")
+		(property "Reference" "D3"
+			(at 143.51 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4007"
+			(at 143.51 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 140.97 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 140.97 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 140.97 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 140.97 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MSKSEMI"
+			(at 140.97 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg PN" "1N4007 A7"
+			(at 140.97 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 140.97 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CUI_purchase_URL" ""
+			(at 140.97 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 140.97 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 140.97 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 140.97 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 140.97 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 140.97 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 140.97 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 140.97 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 140.97 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2902912"
+			(at 140.97 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 140.97 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29952a63-65f9-4864-af32-8228b3af5f31")
+		)
+		(pin "2"
+			(uuid "d86019cc-46d8-48d5-9ca5-d2e988f51c53")
+		)
+		(instances
+			(project "load-bank-fan-controller"
+				(path "/67fad9ff-6e0c-4fc4-919e-157fc6a2e4e2"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -10204,15 +10633,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C7429633"
-			(at 111.76 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MF" ""
 			(at 111.76 161.29 0)
 			(effects
@@ -10231,7 +10651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Megastar"
+		(property "Manufacturer" ""
 			(at 111.76 161.29 0)
 			(effects
 				(font
@@ -10240,7 +10660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg PN" "ZX-XH2.54-3PZZ"
+		(property "Mfg PN" ""
 			(at 111.76 161.29 0)
 			(effects
 				(font
@@ -10277,6 +10697,24 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 111.76 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 111.76 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
 			(at 111.76 161.29 0)
 			(effects
 				(font
@@ -10338,15 +10776,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 85.09 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C99782"
 			(at 85.09 43.18 0)
 			(effects
 				(font
@@ -10463,6 +10892,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C99782"
+			(at 85.09 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 85.09 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "16c304c2-9d7b-4d09-b29f-bb0613ac0b17")
 		)
@@ -10524,15 +10971,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 173.99 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C92490"
 			(at 173.99 63.5 0)
 			(effects
 				(font
@@ -10649,6 +11087,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C92490"
+			(at 173.99 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 173.99 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9409c3b4-5390-43af-9704-c6bb6591b017")
 		)
@@ -10711,15 +11167,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 133.35 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C22548"
 			(at 133.35 38.1 0)
 			(effects
 				(font
@@ -10828,6 +11275,24 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 133.35 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22548"
+			(at 133.35 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
 			(at 133.35 38.1 0)
 			(effects
 				(font
@@ -10994,7 +11459,7 @@
 		(fields_autoplaced yes)
 		(uuid "83e7a3b8-34a8-4c90-a66d-10d96b34c560")
 		(property "Reference" "D1"
-			(at 83.82 69.85 0)
+			(at 83.82 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11007,6 +11472,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
@@ -11046,15 +11512,6 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 83.82 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C145179"
 			(at 83.82 76.2 0)
 			(effects
 				(font
@@ -11171,6 +11628,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C145179"
+			(at 83.82 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 83.82 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bc2245d6-6d95-4b8b-898d-a8c21d25dfe3")
 		)
@@ -11188,7 +11663,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRF540N")
-		(at 134.62 125.73 0)
+		(at 134.62 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11197,7 +11672,7 @@
 		(fields_autoplaced yes)
 		(uuid "875c746f-2dc5-41c1-84d8-b1357c9a4f3a")
 		(property "Reference" "Q1"
-			(at 140.97 124.4599 0)
+			(at 140.97 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11206,7 +11681,7 @@
 			)
 		)
 		(property "Value" "IRF540N"
-			(at 140.97 126.9999 0)
+			(at 140.97 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11215,7 +11690,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
-			(at 139.7 127.635 0)
+			(at 139.7 128.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11226,7 +11701,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
-			(at 139.7 129.54 0)
+			(at 139.7 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11236,16 +11711,7 @@
 			)
 		)
 		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
-			(at 134.62 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C2566"
-			(at 134.62 125.73 0)
+			(at 134.62 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11254,7 +11720,7 @@
 			)
 		)
 		(property "Manufacturer" "Infineon"
-			(at 134.62 125.73 0)
+			(at 134.62 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11263,7 +11729,7 @@
 			)
 		)
 		(property "Mfg PN" "IRF540NPBF"
-			(at 134.62 125.73 0)
+			(at 134.62 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11272,7 +11738,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 134.62 125.73 0)
+			(at 134.62 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11281,7 +11747,7 @@
 			)
 		)
 		(property "CUI_purchase_URL" ""
-			(at 134.62 125.73 0)
+			(at 134.62 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11290,7 +11756,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 134.62 125.73 0)
+			(at 134.62 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11299,7 +11765,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 134.62 125.73 0)
+			(at 134.62 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11308,7 +11774,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 134.62 125.73 0)
+			(at 134.62 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11317,7 +11783,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 134.62 125.73 0)
+			(at 134.62 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11326,7 +11792,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 134.62 125.73 0)
+			(at 134.62 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11335,7 +11801,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 134.62 125.73 0)
+			(at 134.62 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11344,7 +11810,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 134.62 125.73 0)
+			(at 134.62 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11353,7 +11819,25 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 134.62 125.73 0)
+			(at 134.62 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2566"
+			(at 134.62 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 134.62 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11522,6 +12006,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C7429633"
+			(at 72.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Megastar"
+			(at 72.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg PN" "ZX-XH2.54-3PZZ"
+			(at 72.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 72.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "38c71ed8-c7d4-4538-a9bf-f3d21cac6a22")
 		)
@@ -11584,15 +12104,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 127 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C98220"
 			(at 127 132.08 0)
 			(effects
 				(font
@@ -11701,6 +12212,24 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 127 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C98220"
+			(at 127 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
 			(at 127 132.08 0)
 			(effects
 				(font
@@ -11842,15 +12371,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C240840"
-			(at 24.13 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Molex"
 			(at 24.13 44.45 0)
 			(effects
@@ -11959,6 +12479,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C240840"
+			(at 24.13 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 24.13 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "30e08913-3af7-4e92-867b-83216ae054bd")
 		)
@@ -12026,15 +12564,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 210.82 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C92490"
 			(at 210.82 40.64 0)
 			(effects
 				(font
@@ -12143,6 +12672,24 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 210.82 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C92490"
+			(at 210.82 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
 			(at 210.82 40.64 0)
 			(effects
 				(font
@@ -12220,15 +12767,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C92490"
-			(at 78.74 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
 			(at 78.74 161.29 0)
 			(effects
@@ -12337,6 +12875,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C92490"
+			(at 78.74 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 78.74 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "930a79a1-f57b-45a8-9fe7-d6f3bb82760f")
 		)
@@ -12354,7 +12910,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 137.16 113.03 0)
+		(at 137.16 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12363,7 +12919,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a44956a-bf05-431f-bd8b-6d3a9852b2e1")
 		(property "Reference" "#PWR020"
-			(at 137.16 116.84 0)
+			(at 137.16 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12372,7 +12928,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 137.16 107.95 0)
+			(at 137.16 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12380,7 +12936,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 113.03 0)
+			(at 137.16 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12389,7 +12945,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 113.03 0)
+			(at 137.16 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12398,7 +12954,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 137.16 113.03 0)
+			(at 137.16 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12537,15 +13093,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C326580"
-			(at 223.52 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
 			(at 223.52 40.64 0)
 			(effects
@@ -12654,6 +13201,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C326580"
+			(at 223.52 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 223.52 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3bd75b26-55a8-43eb-9d70-d0120bb71c8e")
 		)
@@ -12714,15 +13279,6 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 245.11 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C318938"
 			(at 245.11 95.25 0)
 			(effects
 				(font
@@ -12839,6 +13395,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C318938"
+			(at 245.11 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 245.11 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7c86983a-35d0-4655-a525-ff0131c2cd5f")
 		)
@@ -12901,15 +13475,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 134.62 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C22548"
 			(at 134.62 76.2 0)
 			(effects
 				(font
@@ -13026,6 +13591,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C22548"
+			(at 134.62 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 134.62 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0b7a64c3-edf6-4925-857e-3bef8dc36ba6")
 		)
@@ -13086,15 +13669,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 121.92 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C7429632"
 			(at 121.92 82.55 0)
 			(effects
 				(font
@@ -13203,6 +13777,24 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 121.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C7429632"
+			(at 121.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
 			(at 121.92 82.55 0)
 			(effects
 				(font
@@ -13343,15 +13935,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C105620"
-			(at 255.27 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
 			(at 255.27 72.39 0)
 			(effects
@@ -13452,6 +14035,24 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 255.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C105620"
+			(at 255.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
 			(at 255.27 72.39 0)
 			(effects
 				(font
@@ -13658,15 +14259,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C6187"
-			(at 58.42 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Advanced Monolithic Systems"
 			(at 58.42 156.21 0)
 			(effects
@@ -13775,6 +14367,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C6187"
+			(at 58.42 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 58.42 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b79201de-b75a-4f96-8b58-ab99ec05aab4")
 		)
@@ -13811,7 +14421,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn 12V"
+		(property "Value" "12V IN"
 			(at 75.565 115.57 0)
 			(effects
 				(font
@@ -13819,7 +14429,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
+		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00232_1x02_P5.08mm_Horizontal"
 			(at 74.93 118.11 0)
 			(effects
 				(font
@@ -13838,15 +14448,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 74.93 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" " C8465"
 			(at 74.93 118.11 0)
 			(effects
 				(font
@@ -13955,6 +14556,24 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 74.93 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" " C8465"
+			(at 74.93 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
 			(at 74.93 118.11 0)
 			(effects
 				(font
@@ -14097,15 +14716,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" " C16212"
-			(at 247.65 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "YXC Crystal Oscillators"
 			(at 247.65 77.47 0)
 			(effects
@@ -14214,6 +14824,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" " C16212"
+			(at 247.65 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 247.65 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4ad29c18-4191-4485-8f78-62ae5788e380")
 		)
@@ -14274,15 +14902,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 120.65 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C7429632"
 			(at 120.65 44.45 0)
 			(effects
 				(font
@@ -14391,6 +15010,24 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 120.65 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C7429632"
+			(at 120.65 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
 			(at 120.65 44.45 0)
 			(effects
 				(font

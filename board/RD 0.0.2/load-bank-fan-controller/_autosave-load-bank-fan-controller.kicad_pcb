@@ -7353,7 +7353,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Molex"
+		(property "Manufacturer" "chxunda "
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7366,7 +7366,7 @@
 				)
 			)
 		)
-		(property "Mfg PN" "470531000"
+		(property "Mfg PN" "XD-2510-4A"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7509,7 +7509,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C240840"
+		(property "LCSC Part #" "C17700994 "
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8362,7 +8362,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Molex"
+		(property "Manufacturer" "chxunda "
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8375,7 +8375,7 @@
 				)
 			)
 		)
-		(property "Mfg PN" "470531000"
+		(property "Mfg PN" "XD-2510-4A"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16571,7 +16571,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Molex"
+		(property "Manufacturer" "chxunda "
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16584,7 +16584,7 @@
 				)
 			)
 		)
-		(property "Mfg PN" "470531000"
+		(property "Mfg PN" "XD-2510-4A"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16727,7 +16727,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C240840"
+		(property "LCSC Part #" "C17700994 "
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")

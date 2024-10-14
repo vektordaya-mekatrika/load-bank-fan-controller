@@ -40,6 +40,7 @@ void initialValue()
   commandRpm=100;
   rpmHoldStatus = false;
   analogWrite(FAN1_PWM,commandRpm);
+  digitalWrite(RELAY, LOW);
 }
 
 void pwmCalculation(int current)
@@ -100,12 +101,12 @@ void relayOperation()
 {
   if(commandRpm!=0 && rpm==0)
   {
-    digitalWrite(RELAY,HIGH);
+    digitalWrite(RELAY,LOW);
     Serial.println("RELAY OPEN");
   }
   else
   {
-    digitalWrite(RELAY,LOW);
+    digitalWrite(RELAY,HIGH);
     Serial.println("RELAY CLOSE");
   }
 }

@@ -12400,7 +12400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 68.2752 142.24 0)
 			(effects
 				(font

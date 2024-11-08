@@ -1,9 +1,9 @@
-#define FAN1_PWM 11
+#define FAN1_PWM 5
 #define FAN1_FB 2
 #define CT A2
 #define HOLD_TIME 5000 
-#define ADC_MID 503
-#define RELAY 12
+#define ADC_MID 511
+#define RELAY 8
 
 int rpm;
 unsigned long lastEvent;
@@ -73,14 +73,14 @@ void pwmCalculation(int current)
   {
     switch(current)
     {
-      case 0 ... 50:
-        commandRpm=20;
+      case 0 ... 5:
+        commandRpm=25;
         break;
-      case 400 ... 512:
+      case 360 ... 512:
         commandRpm=255;
         break;
       default:
-        commandRpm=map(current,50,400,20,255);
+        commandRpm=map(current,5,360,25,255);
         break;
     }
   }
@@ -97,9 +97,9 @@ void resetRPM()
   }
 }
 
-void relayOperation()
+void relayOperation(int current)
 {
-  if(commandRpm!=0 && rpm==0)
+  if((commandRpm!=0 && rpm==0 || current>450))
   {
     digitalWrite(RELAY,LOW);
     Serial.println("RELAY OPEN");

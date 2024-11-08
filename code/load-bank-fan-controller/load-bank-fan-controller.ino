@@ -17,7 +17,7 @@ void loop() {
   //reset rpm to zero if no interrupt event
   resetRPM();
   // relay operation
-  relayOperation();
+  relayOperation(current);
   //print value to serial
   printValue(current, commandRpm, rpm);
 }
